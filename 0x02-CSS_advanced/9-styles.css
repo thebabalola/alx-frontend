@@ -1,10 +1,4 @@
-/*  Making custom properties in root element,
-    Creating new declaration with all section headings
-*/
-html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-}
+/* Remove decoration for links*/
 
 :root {
     --color-primary: #d73953;
@@ -22,14 +16,18 @@ html {
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-    
+
     --font-weight-regular: 400;
     --font-weight-bold: 700;
 
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+}
 
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 body {
@@ -50,14 +48,14 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden {
+    display: none;
+}
+
 .card-category {
     color: var(--color-primary);
 }
 
 .section-tagline {
     color: var(--color-primary);
-}
-
-.visually-hidden{
-    display: none;
 }
