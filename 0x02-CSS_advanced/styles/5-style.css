@@ -27,13 +27,21 @@ html {
 }
 
 /* Global declarations for (body, anchor and the other two classes) */
-body, a {
+body {
     color: var(--text-color);
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-medium);
 }
 
-.card-category, .section-tagline{
+a {
+	color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category, .section-tagline {
     color: var(--color-primary);
 }
 
