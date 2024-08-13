@@ -1,0 +1,65 @@
+/* enable smooth/fluid scrolling in html element */
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+/* Declared global custom properties, for -(-used for easy maintenace, ease of updates etc-) */
+:root {
+	/* Global & Variable declarations for custom (colors) */
+	--color-primary: #d73953;
+	--color-black: #090909;
+	--color-white: #ffffff;
+	--color-light-grey: #f3f3f3;
+	--color-dark-grey: #353535;
+	--text-color: var(--color-black);
+
+	/* Global & Variable declarations for custom (fonts-types) */
+	--font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+	/* Global & variable declaration for custom (font-size) */
+	--font-size-small: 1.2rem;
+	--font-size-medium: 1.6rem;
+	--font-size-large: 1.8rem;
+	--font-size-x-large: 2.3rem;
+	--font-size-xx-large: 4.8rem;
+
+	/* Global & variable declaration for custom (font-weight) */
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+
+	/* Global & variable declaration for custom (line-height) */
+	--line-height-small: 1.2;
+	--line-height-base: 1.5;
+	--line-height-big: 1.8;
+}
+
+/* Global declarations for (body, anchor and the other two classes) */
+body, a {
+    color: var(--text-color);
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-medium);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-base);
+	/* Style anchor elements so the text isn’t decorated anymore */
+	text-decoration: none;
+}
+
+.card-category, .section-tagline{
+    color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-fanily-title);
+	font-weight: var(--font-weight-bold);
+}
+
+.section-header {
+	text-align: var(--section-header-align);
+}
+
+/* Global & variable declaration for custom (centering of section title) */
+:root {
+	--section-header-align: center;
+} 
