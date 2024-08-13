@@ -1,0 +1,4 @@
+/* enables smooth scrolling for all scrolling actions on the page */
+html {
+	scroll-behavior: smooth;
+}

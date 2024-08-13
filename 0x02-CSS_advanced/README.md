@@ -1,0 +1,3 @@
+READme
+
+This project covers the essential guidelines and best practices for creating structured and an aesthetically pleasing html page. It is carried out to solidify the understanding of CSS and ensure create well-structured, semantic, and compliant web pages...
