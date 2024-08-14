@@ -112,8 +112,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav {
-	margin: 0 0;
-	padding: 0 0;
+	margin: 0;
+	padding: 0;
 	list-style-type: none;
 	text-align: center;
 }
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav .nav-link:hover {
-	color: var(--nav-item-link-hover);
+	color: var(--nav-item-link-hover); 
 }
 
 .section {
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: var(--section-footer-align);
 }
 
-.section-title{
+.section-title {
 	font-family: var(--font-family-title);
 	font-size: var(--font-size-xx-large);
 	font-weight: var(--font-weight-bold);
@@ -163,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-tagline {
+	color: var(--color-primary);
 	font-family: var(--font-family-title);
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
