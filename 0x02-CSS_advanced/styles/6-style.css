@@ -1,4 +1,4 @@
-/* enable smooth/fluid scrolling in html element */
+/* enable smooth scrolling in html element */
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
