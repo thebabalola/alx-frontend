@@ -28,6 +28,17 @@ html {
 	/* Global & variable declaration for custom (font-weight) */
 	--font-weight-regular: 400;
 	--font-weight-bold: 700;
+
+	/* Global & variable declaration for custom (line-height) */
+	--line-height-small: 1.2;
+	--line-height-base: 1.5;
+	--line-height-big: 1.8;
+
+	/* Global & variable declaration for custom (sections) */
+	--section-header-align: center;
+	--section-tagline-transform: uppercase;
+	--section-title-margin: 0;
+	--section-title-color: var(--color-black);
 }
 
 /* Global declarations for (body, anchor and the other two classes) */
@@ -36,10 +47,13 @@ body {
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-medium);
 	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-base);
 }
 
 a {
 	color: var(--text-color);
+	/* removes line decoration from anchot tag */
+	text-decoration: none;
 }
 
 .visually-hidden {
@@ -52,5 +66,23 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-family-title);
+	font-weight: var(--font-weight-bold);
+}
+
+.section-header {
+	text-align: var(--section-header-align);
+}
+
+.section-title{
+	font-family: var(--font-family-title);
+	font-size: var(--font-size-xx-large);
+	font-weight: var(--font-weight-bold);
+	margin: var(--section-title-margin);
+	color: var(--section-title-color);
+}
+
+.section-tagline {
+	font-family: var(--font-family-title);
+	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
 }
