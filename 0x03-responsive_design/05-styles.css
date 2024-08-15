@@ -290,7 +290,19 @@
   @media screen and (max-width: 767px) {
     .navbar-menu {
       display: none;
+	  flex: 1;
     }
+
+	.header .nav {
+		flex-direction: column; /*for the element of the menu be below each other*/
+		overflow: hidden;
+		max-height: 0;
+		transition: max-height .2s ease-out;  /* for transition */
+	}
+
+	:root {
+		--nav-item-margin: 0;
+	}
   }
   
   /* Header
